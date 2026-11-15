@@ -14,7 +14,14 @@ func start(owner: Player):
 	input_handler = player.player_input
 	anim_player = player.anim_player
 
+func gravity(delta: float):
+	if player.is_on_floor():
+		player.velocity.y = -0.2
+	else:
+		player.velocity.y -= 40.0 * delta
+
 func move(delta: float):
+	gravity(delta)
 	var move_input = input_handler.movement_input
 	move_dir = Vector3(move_input.x, 0, move_input.y).normalized()
 	var current_velocity := player.velocity

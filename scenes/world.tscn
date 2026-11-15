@@ -32,7 +32,7 @@ shadow_enabled = true
 [node name="Map" parent="." unique_id=1395991664 instance=ExtResource("1_rwgxs")]
 
 [node name="Player" parent="." unique_id=393122508 instance=ExtResource("2_rwgxs")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.79452467, 0, 4.220794)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.9467835, 4.786729, 4.220794)
 
 [node name="Camera3D" type="Camera3D" parent="Player" unique_id=1808341274]
 transform = Transform3D(1, 0, 0, 0, 0.91463304, 0.40428507, 0, -0.40428507, 0.91463304, 0, 3.4898639, 5.980164)
