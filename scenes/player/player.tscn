@@ -397,7 +397,7 @@ transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 1.1447042, 0)
 sprite_frames = SubResource("SpriteFrames_uj04i")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.851752
+frame_progress = 0.25931352
 
 [node name="ShouldBeHand" type="AnimatedSprite3D" parent="Visual" unique_id=99323989]
 transform = Transform3D(3, 0, 0, 0, 7, 0, 0, 0, 7, 0, 1.145, 0.06)
@@ -440,7 +440,6 @@ metadata/_custom_type_script = "uid://bunhtdebhmu65"
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.80264246, 0.5888803, 0)
 collision_layer = 8
 collision_mask = 2
-monitoring = false
 
 [node name="HitBoxShape" type="CollisionShape3D" parent="HitBox" unique_id=715033369]
 shape = SubResource("SphereShape3D_uj04i")
