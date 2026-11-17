@@ -237,7 +237,7 @@ animations = [{
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_7r4gi"]
 
-[node name="Player" type="CharacterBody3D" unique_id=619417268]
+[node name="Tikus" type="CharacterBody3D" unique_id=619417268]
 script = ExtResource("1_8xodt")
 metadata/_custom_type_script = "uid://dbbdfahsf6cqv"
 
