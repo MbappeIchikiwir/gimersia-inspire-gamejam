@@ -13,10 +13,10 @@ func _on_ready() -> void:
 	_area_y = shape_node.position.y   # simpan tinggi shape
 	shape_node.position = Vector3.ZERO  # buang offset X dan Z
 	attack_area.position.y = _area_y
-	
+
 	_area_y = attack_area.position.y
 	max_health = 20.0
-	health = max_health
+	reset_health()   # dulu: health = max_health (sekarang health read-only)
 	move_speed = 4.5
 	damage = 3.0
 	attack_cooldown = 0.8
