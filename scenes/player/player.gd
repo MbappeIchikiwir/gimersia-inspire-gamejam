@@ -13,6 +13,7 @@ class_name Player
 @export var decceleration = 25.0
 
 func _ready() -> void:
+	Dialogic.start("Test")
 	player_locomotion.start(self)
 	player_combat.start(self)
 
