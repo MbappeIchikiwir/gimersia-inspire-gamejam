@@ -21,12 +21,17 @@ Dialogic="*uid://ds2q0uclmolvu"
 
 [dialogic]
 
-directories/dch_directory={}
+directories/dch_directory={
+"unit_test_character": "res://Tests/Resources/unit_test_character.dch"
+}
 directories/dtl_directory={
-"Test": "res://scenes/Dialouges/Test.dtl"
+"pak_rt_intro": "res://scripts/pak_rt_intro.dtl"
 }
 layout/style_directory={}
 glossary/default_case_sensitive=true
+variables={}
+layout/style_list=[]
+layout/default_style=""
 
 [display]
 
